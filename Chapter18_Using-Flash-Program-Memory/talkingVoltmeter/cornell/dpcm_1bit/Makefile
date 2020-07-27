@@ -24,7 +24,7 @@ EXTRA_SOURCE_FILES = USART
 ##########        (Can override.  See bottom of file.)          ##########
 ##########------------------------------------------------------##########
 
-PROGRAMMER_TYPE = usbtiny
+PROGRAMMER_TYPE = usbasp
 # extra arguments to avrdude: baud rate, chip type, -F flag, etc.
 PROGRAMMER_ARGS = 	
 
@@ -131,7 +131,7 @@ avrdude_terminal:
 ## If you've got multiple programmers that you use, 
 ## you can define them here so that it's easy to switch.
 ## To invoke, use something like `make flash_arduinoISP`
-flash_usbtiny: PROGRAMMER_TYPE = usbtiny
+flash_usbtiny: PROGRAMMER_TYPE = usbasp
 flash_usbtiny: PROGRAMMER_ARGS =  # USBTiny works with no further arguments
 flash_usbtiny: flash
 
