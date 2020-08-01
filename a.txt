@@ -1,0 +1,128 @@
+commit 67d6051907bcf4125fa16a51c601bd938bf4c772
+Author: Vineel Kumar Reddy Kovvuri <vineel.kovvuri@gmail.com>
+Date:   Thu Jul 30 22:59:12 2020 -0700
+
+    Simple input
+    
+    Signed-off-by: Vineel Kumar Reddy Kovvuri <vineel.kovvuri@gmail.com>
+
+M	Chapter04_Bit-Twiddling/cylonEyes/cylonEyes.c
+A	Chapter04_Bit-Twiddling/simpleinput/Makefile
+A	Chapter04_Bit-Twiddling/simpleinput/simpleinput.c
+
+commit 0565356cd345ef939c2c148b3c248ba14f33d057
+Author: Vineel Kumar Reddy Kovvuri <vineel.kovvuri@gmail.com>
+Date:   Tue Jul 28 07:58:47 2020 -0700
+
+    Successfully able to use UART
+    
+    Signed-off-by: Vineel Kumar Reddy Kovvuri <vineel.kovvuri@gmail.com>
+
+A	Chapter05_Serial-IO/serialLoopbacksample/Makefile
+A	Chapter05_Serial-IO/serialLoopbacksample/serialLoopback.c
+
+commit acb64aca6d4729195e8287a9793a5ab6f0017c81
+Author: Vineel Kumar Reddy Kovvuri <vineel.kovvuri@gmail.com>
+Date:   Mon Jul 27 00:10:45 2020 -0700
+
+    switch to my environment
+    
+    Signed-off-by: Vineel Kumar Reddy Kovvuri <vineel.kovvuri@gmail.com>
+
+M	AVR-Programming-Library/Makefile
+M	Chapter02_Programming-AVRs/blinkLED/Makefile
+M	Chapter02_Programming-AVRs/blinkLED_AVR_style/Makefile
+M	Chapter02_Programming-AVRs/sample/Makefile
+M	Chapter03_Digital-Output/povToy/Makefile
+M	Chapter03_Digital-Output/povToy/povToy.c
+M	Chapter03_Digital-Output/povToy_1up/1up.c
+M	Chapter03_Digital-Output/povToy_1up/Makefile
+M	Chapter03_Digital-Output/povToy_cylonEyes/Makefile
+M	Chapter03_Digital-Output/povToy_cylonEyes/cylonEyes_POV.c
+M	Chapter03_Digital-Output/povToy_invaders/Makefile
+M	Chapter04_Bit-Twiddling/cylonEyes/Makefile
+M	Chapter04_Bit-Twiddling/cylonEyes_16LFSR/Makefile
+M	Chapter04_Bit-Twiddling/cylonEyes_8LFSR/Makefile
+M	Chapter04_Bit-Twiddling/cylonEyes_counting/Makefile
+M	Chapter04_Bit-Twiddling/cylonEyes_halfStepping/Makefile
+M	Chapter04_Bit-Twiddling/cylonEyes_naive/Makefile
+M	Chapter04_Bit-Twiddling/cylonEyes_quasiRandomToggle/Makefile
+M	Chapter04_Bit-Twiddling/showingOffBits/Makefile
+M	Chapter05_Serial-IO/serialLoopback/Makefile
+M	Chapter05_Serial-IO/serialOrgan/Makefile
+M	Chapter06_Digital-Input/avrMusicBox/Makefile
+M	Chapter06_Digital-Input/bossButton/Makefile
+M	Chapter06_Digital-Input/debouncer/Makefile
+M	Chapter06_Digital-Input/simpleButton/Makefile
+M	Chapter06_Digital-Input/toggleButton/Makefile
+M	Chapter06_Digital-Input/toggleButton_debounced/Makefile
+M	Chapter07_Analog-to-Digital-Conversion-I/lightSensor/Makefile
+M	Chapter07_Analog-to-Digital-Conversion-I/nightLight/Makefile
+M	Chapter07_Analog-to-Digital-Conversion-I/slowScope/Makefile
+M	Chapter08_Hardware-Interrupts/capSense/Makefile
+M	Chapter08_Hardware-Interrupts/helloInterrupt/Makefile
+M	Chapter08_Hardware-Interrupts/helloPinChangeInterrupt/Makefile
+M	Chapter09_Introduction-to-Timer-Counter-Hardware/amRadio/Makefile
+M	Chapter09_Introduction-to-Timer-Counter-Hardware/reactionTimer/Makefile
+M	Chapter09_Introduction-to-Timer-Counter-Hardware/timerAudio/Makefile
+M	Chapter10_Pulse-Width-Modulation/bruteForcePWM/Makefile
+M	Chapter10_Pulse-Width-Modulation/pwm/Makefile
+M	Chapter10_Pulse-Width-Modulation/pwmOnAnyPin/Makefile
+M	Chapter10_Pulse-Width-Modulation/pwmTimers/Makefile
+M	Chapter10_Pulse-Width-Modulation/pwm_cross-fading_cylons/Makefile
+M	Chapter11_Driving-Servo-Motors/servoSundial/Makefile
+M	Chapter11_Driving-Servo-Motors/servoWorkout/Makefile
+M	Chapter12_Analog-to-Digital-Conversion-II/footstepDetector/Makefile
+M	Chapter12_Analog-to-Digital-Conversion-II/voltmeter/Makefile
+M	Chapter13_Advanced-PWM-Tricks/adsr/Makefile
+M	Chapter13_Advanced-PWM-Tricks/arpeggiator/Makefile
+M	Chapter13_Advanced-PWM-Tricks/dds/Makefile
+M	Chapter13_Advanced-PWM-Tricks/dds_interrupts/Makefile
+M	Chapter13_Advanced-PWM-Tricks/dds_saw15/Makefile
+M	Chapter13_Advanced-PWM-Tricks/dialTone/Makefile
+M	Chapter13_Advanced-PWM-Tricks/fatSaw/Makefile
+M	Chapter14_Switches/dcMotorWorkout/Makefile
+M	Chapter15_Advanced-Motors/hBridgeWorkout/Makefile
+M	Chapter15_Advanced-Motors/stepperWorkout/Makefile
+M	Chapter16_SPI/spiEEPROMDemo/Makefile
+M	Chapter17_I2C/i2cThermometer/Makefile
+M	Chapter17_I2C/loggingThermometer/Makefile
+M	Chapter18_Using-Flash-Program-Memory/progmemDemo1/Makefile
+M	Chapter18_Using-Flash-Program-Memory/progmemDemo2/Makefile
+M	Chapter18_Using-Flash-Program-Memory/progmemDemo3/Makefile
+M	Chapter18_Using-Flash-Program-Memory/progmemDemo4/Makefile
+M	Chapter18_Using-Flash-Program-Memory/progmemDemo5/Makefile
+M	Chapter18_Using-Flash-Program-Memory/talkingVoltmeter/Makefile
+M	Chapter18_Using-Flash-Program-Memory/talkingVoltmeter/cornell/dpcm_1bit/Makefile
+M	Chapter18_Using-Flash-Program-Memory/talkingVoltmeter/cornell/dpcm_2bit/Makefile
+M	Chapter19_EEPROM/eememDemo/Makefile
+M	Chapter19_EEPROM/favoriteColor/Makefile
+M	Chapter19_EEPROM/quickDemo/Makefile
+M	Chapter19_EEPROM/vigenereCipher/Makefile
+M	setupProject/Makefile
+
+commit c99b424e5cf48c0f61b86ec801d8c4581eb5092b
+Author: Vineel Kumar Reddy Kovvuri <vineel.kovvuri@gmail.com>
+Date:   Sun Jul 26 02:05:57 2020 -0700
+
+    Docs + sample
+    
+    Signed-off-by: Vineel Kumar Reddy Kovvuri <vineel.kovvuri@gmail.com>
+
+A	Chapter02_Programming-AVRs/sample/Makefile
+A	Chapter02_Programming-AVRs/sample/sample.c
+A	docs/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf
+A	docs/Atmel-megaAVR-ATmega48-Learning Centre MCU-Application Notes-Atmel.Application_Notes_68.pdf
+A	docs/atmel-0856-avr-instruction-set-manual.pdf
+A	docs/avr-libc-user-manual-2.0.0.pdf
+
+commit 3464f43b17bb0e2e2e2fb5a876019183f05c4302
+Author: Vineel Kumar Reddy Kovvuri <vineel.kovvuri@gmail.com>
+Date:   Sat Jul 25 23:33:43 2020 -0700
+
+    My environment - atmega328p usbasp
+    
+    Signed-off-by: Vineel Kumar Reddy Kovvuri <vineel.kovvuri@gmail.com>
+
+A	.gitignore
+M	Chapter02_Programming-AVRs/blinkLED/Makefile
