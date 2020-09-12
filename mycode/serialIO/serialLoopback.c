@@ -39,11 +39,10 @@ int main(void) {
   while (1) {
     for (int i = 0; i < strlen(outstr); i++) {
       PORTB = outstr[i];
-      _delay_ms(100);
+      _delay_ms(10);
       USART_Transmit(outstr[i]);                          /* to test */
       PORTB = 0;
-      _delay_ms(100);
-
+      _delay_ms(10);
     }
   }
 
