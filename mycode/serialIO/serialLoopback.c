@@ -1,4 +1,3 @@
-// ------- Preamble -------- //
 #include <string.h>
 #include <avr/io.h>
 #include <util/delay.h>
@@ -31,18 +30,18 @@ void USART_Transmit(unsigned char data)
 }
 
 int main(void) {
-  char outstr[50] = "Riya Nischala Vineel \n";
+  char outstr[50] = "Hello UART \r\n";
 
   // -------- Inits --------- //
   USART_Init();
   DDRB = 0xff;
   while (1) {
     for (int i = 0; i < strlen(outstr); i++) {
-      PORTB = outstr[i];
-      _delay_ms(10);
+//      PORTB = outstr[i];
+      //_delay_ms(10);
       USART_Transmit(outstr[i]);                          /* to test */
-      PORTB = 0;
-      _delay_ms(10);
+//      PORTB = 0;
+      //_delay_ms(10);
     }
   }
 
